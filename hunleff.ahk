@@ -4,23 +4,23 @@ stop:=false
 ranged:=true
 first:=true
 
-F11::
-	SoundPlay, pop.wav
+F10::
+	SoundPlay, C:\Users\koepp\Documents\HunleffTimerLite\pop.wav
 	ranged:=true
 	stop:=true
 	return
 
-F12::
+F9::
 	stop:=false
 loop {
 	; Use boolean to play proper sound effect
 	if (ranged)
 	{
-		SoundPlay, ranged.wav
+		SoundPlay, C:\Users\koepp\Documents\HunleffTimerLite\ranged.wav
 	}
 	else
 	{
-		SoundPlay, magic.wav
+		SoundPlay, C:\Users\koepp\Documents\HunleffTimerLite\magic.wav
 	}
 
 	; Then flip the attack style boolean
