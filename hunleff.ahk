@@ -1,3 +1,4 @@
+SetWorkingDir %A_ScriptDir%
 #MaxThreadsPerHotkey, 2
 
 stop:=false
@@ -5,7 +6,7 @@ ranged:=true
 first:=true
 
 F10::
-	SoundPlay, C:\Users\koepp\Documents\HunleffTimerLite\pop.wav
+	SoundPlay, pop.wav
 	ranged:=true
 	stop:=true
 	return
@@ -16,11 +17,11 @@ loop {
 	; Use boolean to play proper sound effect
 	if (ranged)
 	{
-		SoundPlay, C:\Users\koepp\Documents\HunleffTimerLite\ranged.wav
+		SoundPlay, ranged.wav
 	}
 	else
 	{
-		SoundPlay, C:\Users\koepp\Documents\HunleffTimerLite\magic.wav
+		SoundPlay, magic.wav
 	}
 
 	; Then flip the attack style boolean
