@@ -1,4 +1,4 @@
-# HunleffTimerLite
+# Hunleff Timer Lite
 
 A keybound activated timer that tracks Hunleff's attack style cycle. Requires AutoHotKey to function.
 
@@ -6,8 +6,8 @@ A keybound activated timer that tracks Hunleff's attack style cycle. Requires Au
   
 	• DIRECTIONS: Activate the script during the same tick you first get hit/splashed, just like the Runelite plugin.
 	
-	• ISSUES? If the keybind doesn't work or sounds don't play, run the script as an administrator.
+	• If the keybind doesn't work or sounds don't play, run the script as an administrator.
   
-	• NOTE: No trample functionality. Don't get trampled. If you need it badly, DM me on twitter @chloroken.
+	• No trample functionality. Don't get trampled. If you need it badly, DM me on twitter @chloroken.
 
-Although the script inputs no commands and shouldn't break ToS, use at your own risk!
+	• Although the script inputs no commands and shouldn't break ToS, use at your own risk!
