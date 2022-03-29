@@ -1,7 +1,7 @@
 SetWorkingDir %A_ScriptDir%
 #MaxThreadsPerHotkey, 2
 
-SoundPlay, womp.wav
+SoundPlay, welcome.wav
 
 rangedPhase:=true
 initialPhase:=true
@@ -17,21 +17,15 @@ F5::
 		}
 		else if (rangedPhase)
 		{
-			SoundPlay, ranged.wav
-			sleep, 8900
+			SoundPlay, fullranged.wav
+			sleep, 12000
 		}
 		else
 		{
-			SoundPlay, magic.wav
-			sleep, 8900
+			SoundPlay, fullmagic.wav
+			sleep, 12000
 		}
 		rangedPhase:=!rangedPhase
-		SoundPlay, blip.wav
-		sleep, 1000
-		SoundPlay, blip.wav
-		sleep, 1000
-		SoundPlay, blip.wav
-		sleep, 1000
 	}
 
 F6::	Reload
