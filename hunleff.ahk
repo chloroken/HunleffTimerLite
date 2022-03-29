@@ -1,48 +1,37 @@
 SetWorkingDir %A_ScriptDir%
 #MaxThreadsPerHotkey, 2
 
-stop:=false
-ranged:=true
-first:=true
+SoundPlay, womp.wav
 
-F9::
-	stop:=false
+rangedPhase:=true
+initialPhase:=true
+
+F5::
 	loop
 	{
-		if (first)
+		if (initialPhase)
 		{
+			initialPhase:=false
 			SoundPlay, gl.wav
+			sleep, 5000
 		}
-		else if (ranged)
+		else if (rangedPhase)
 		{
 			SoundPlay, ranged.wav
+			sleep, 8900
 		}
 		else
 		{
 			SoundPlay, magic.wav
+			sleep, 8900
 		}
+		rangedPhase:=!rangedPhase
+		SoundPlay, blip.wav
+		sleep, 1000
+		SoundPlay, blip.wav
+		sleep, 1000
+		SoundPlay, blip.wav
+		sleep, 1000
+	}
 
-		ranged:=!ranged
-
-		if (first)
-		{
-			first := false
-			sleep, 7400 ; 14 ticks
-		}
-		else
-		{
-			sleep, 11000 ; 20 ticks
-		}
-
-		SoundPlay, womp.wav
-		sleep 1000
-
-	} until stop = true
-	return
-
-F10::
-	SoundPlay, pop.wav
-	ranged:=true
-	first:=true
-	stop:=true
-	return
+F6::	Reload
