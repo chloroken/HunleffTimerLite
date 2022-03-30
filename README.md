@@ -2,7 +2,7 @@
 
 A keybound activated timer that tracks Hunleff's attack style cycle. Requires AutoHotKey to function.
 
-	• KEYBINDS: Default keybinds are F5 to start, F6 to reset. Check for conflicts with "Key Remapping" plugin.
+	• KEYBINDS: F5 to start, F6 to reset. Check for conflicts with "Key Remapping" plugin.
   
 	• DIRECTIONS: Activate the script during the same tick you first get hit/splashed.
 	
