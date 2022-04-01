@@ -2,17 +2,19 @@
 
 A script that tracks Hunleff's attack cycles — like Runelite's `Hunleff Helper` — but with keybind activation.
 
+WARNING:
+
+Before downloading, review the files found within. When dealing with OSRS, because of how bad account security can be, it's extra important to be careful when downloading stuff. In the case of downloading files designed to be executed, make sure you know what you're dealing with before you download and run them. This bundle (HunleffTimerLite) includes an AutoHotKey script (which can be opened with notepad), a bunch of .wav (sound) files, and this readme file. Make sure to always double check what you're downloading!
+
 DIRECTIONS:
 
-	1) Before downloading, review the files found within. When dealing with OSRS, because of how bad account security can be, it's extra important to be careful when downloading stuff. In the case of downloading files designed to be executed, make sure you know what you're dealing with before you download and run them. This bundle (HunleffTimerLite) includes an AutoHotKey script (which can be opened with notepad), a bunch of .wav (sound) files, and this readme file. Make sure to always double check what you're downloading!
-
-	2) Ensure AutoHotKey is installed: https://www.autohotkey.com/
+	1) Ensure AutoHotKey is installed: https://www.autohotkey.com/
 	
-	3) Download and run the hunleff.ahk script as admin.
+	2) Download and run the hunleff.ahk script as admin.
 	
-	4) Activate the script with [F5] as Hunleff's first attack lands.
+	3) Activate the script with [F5] as Hunleff's first attack lands.
 	
-	5) Reset the script with [F6] when finished.
+	4) Reset the script with [F6] when finished.
   
 NOTES:
 
