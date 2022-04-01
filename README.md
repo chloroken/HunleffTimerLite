@@ -1,6 +1,6 @@
 # Hunleff Timer Lite
 
-An audio timer script that tracks Hunleff's attack cycles — just like the Runelite plugin `Hunleff Helper` — but with keybind activation.
+A script that tracks Hunleff's attack cycles — just like the Runelite plugin `Hunleff Helper` — but with keybind activation.
 
 DIRECTIONS:
 
