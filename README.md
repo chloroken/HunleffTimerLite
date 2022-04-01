@@ -2,20 +2,20 @@
 
 A keybound activated timer that tracks Hunleff's attack style cycle. Requires AutoHotKey to function.
 
-DIRECTIONS
+DIRECTIONS:
 
-	• Run the script with administrator privileges.
-
-	• Default keybinds are: [F5] to start, [F6] to reset.
-		
-		• Check for conflicts in default Settings -> Controls!
+	1) Ensure AutoHotKey is installed.
 	
-		• Check for conflicts with "Key Remapping" Runelite plugin!
-  
-	• Activate the script the same tick as you first get hit (or splashed).
+	2) Download and run the hunleff.ahk script as admin.
+	
+	3) Activate the script with [F5] as you first get hit (or splashed).
+	
+	4) Reset the script with [F6] when finished.
   
 NOTES:
 
-- No trample functionality so...don't get trampled. If you need it badly, DM me on twitter @chloroken.
+- Default keybinds are `F5` and `F6` — check for conflicts: `Settings -> Controls` and Runelite's `Key Remapper` plugin
+
+- No trample functionality — you'll need to reset (F6) and reactivate (F5) the plugin when Hunleff switches to ranged.
 
 - Although the script inputs no commands and shouldn't break ToS, use at your own risk!
